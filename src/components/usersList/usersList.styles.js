@@ -29,9 +29,28 @@ const StyledNameContainer = styled.div`
 	gap: 0.25rem;
 `;
 
+const StyledName = styled.h2`
+	font-size: 1rem;
+	font-weight: bold;
+`;
+const StyledUsername = styled.span`
+	font-size: 0.75rem;
+`;
+
+const StyledActive = styled.span`
+	color: green;
+`;
+const StyledInactive = styled.span`
+	color: red;
+`;
+
 export {
+	StyledActive,
 	StyledContainerCard,
+	StyledInactive,
+	StyledName,
 	StyledNameContainer,
 	StyledProfileContainer,
-	StyledProfileImage
+	StyledProfileImage,
+	StyledUsername
 };

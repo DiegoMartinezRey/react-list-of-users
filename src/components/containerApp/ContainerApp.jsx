@@ -24,7 +24,6 @@ const ContainerApp = () => {
 
 	const getOrder = e => {
 		setOrder(e.target.value);
-		console.log(order);
 	};
 
 	const filteredUsers = users.filter(user => {
